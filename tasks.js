@@ -97,7 +97,16 @@
 //5)გვჭირდება სამი prompt.გვჭირდება რომ ამ სამ ინფუტში შემოყვანილი რიცხვებიდან რომელი არის უდიდესი ის დავიჭიროთ და დავლოგოთ უბრალოდ.
 // მაგალითად.2,5,7 და აქედან უდიდესი არის 7.
 //დაწერეთ ფუნქციაში ეს ყველაფერი და შემდეგ ამ ფუნქციაში შეამოწმეთ if else დახმარებით!!
+// ეს ყველაზე მარტივია ახალი მიდგომაა
+function biggestNumber(num1,num2,num3) {
+    let a = num1
+    let b = num2
+    let c = num3
+    const biggest = Math.max(a,b,c)
+    console.log(biggest)
+}
 
+biggestNumber(prompt('enter number'),prompt('enter number'),prompt('enter number'))
 
     // function biggestNum(a,b,c) {
     //     if(a === `` || b ===`` || c === ``){
