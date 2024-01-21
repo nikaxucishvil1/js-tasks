@@ -25,8 +25,10 @@
 //     console.log(num1 - num2)
 //     }else if(move === `*`){
 //     console.log(num1 * num2)
+//     }esle if(move === '/' && num2 === 0){
+//      console.log('error')
 //     }else if(move === `/`){
-//     console.log(num1 / num2)
+        console.log(num1 / num2)
 //     }else{
 //     console.log(`error`)
 //     }
